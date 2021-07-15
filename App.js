@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, createAppContainer, Image } from 'react-native';
-import { createBottomTabNavigator } from 'react-native-tabs';
+import { StyleSheet, Text, View, createAppContainer, Image } from 'react-navigation';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
 
 import ReadStoryScreen from './screens/ReadStoryScreen.js';
 import WriteStoryScreen from './screens/WriteStoryScreen.js';
